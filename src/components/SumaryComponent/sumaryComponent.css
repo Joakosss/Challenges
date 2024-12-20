@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  font: 18px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 20px;
+}
+
+.div-interiores {
+  border-radius: 20px;
+  width: 16rem;
+}
+
+.principalDiv {
+  background: linear-gradient(185deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principalDiv h4 {
+  color: hsl(241, 100%, 89%);
+}
+.principalDiv .circle {
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 100%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+
+.principalDiv .circle .circleTitle {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+.principalDiv .circle .circleText {
+  font-size: 0.8rem;
+  color: hsla(241, 100%, 89%, 0.493);
+  margin: 0;
+}
+.principalDiv h2 {
+  color: white;
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+.principalDiv p {
+  margin: 0rem 2rem 2rem 2rem;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.555);
+}
+
+.secondaryDiv {
+  margin: 0rem 0rem 0rem 1.5rem;
+}
+
+/* componente */
+
+.calificationComponent {
+  display: flex;
+  place-items: center;
+  background-color: aqua;
+}
+
+/* colores componentes */
+.rojo {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.amarillo {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+.verde {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+.azul {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
